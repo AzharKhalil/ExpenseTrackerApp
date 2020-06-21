@@ -18,7 +18,7 @@ export const ExpenseList = () => {
                             <div>
 
                                 <li key={transObj.id}>
-                                <a className="example_e" target="_blank" onClick={()=>{deleteTrans(transObj.id)}} >Remove</a>
+                                <a className="example_e" href="##" target="_blank" onClick={()=>{deleteTrans(transObj.id)}} >Remove</a>
                                     <span><h4>{transObj.text}</h4></span>
                                     <span className={(transObj.amount) <= 0 ? 'listcolor' : 'listcolor2'}><h4>{sign}${Math.abs(transObj.amount)}</h4></span>
 
