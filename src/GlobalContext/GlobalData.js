@@ -3,7 +3,7 @@ import AppReducer from './AppReducer'
 
 const initialstate ={
     transcations:[
-        {id:1,text:'hg',amount:100}
+        
    
     ]
 }
